@@ -1,10 +1,16 @@
 function App() {
   return (
-    <>
-      <p className="text-3xl font-bold underline">
-        Nike Landing Page
-      </p>
-    </>
+    <main className="">
+      {/* Nav */}
+      {/* Hero */}
+      {/* Popular Products */}
+      {/* SuperQuality */}
+      {/* Services */}
+      {/* SpecialOffer */}
+      {/* CustomerReviews */}
+      {/* Subscribe */}
+      {/* Footer */}
+    </main>
   )
 }
 
