@@ -1,7 +1,10 @@
+import { Nav } from "./components"
+
 function App() {
   return (
-    <main className="">
+    <main className="relative">
       {/* Nav */}
+      <Nav />
       {/* Hero */}
       {/* Popular Products */}
       {/* SuperQuality */}
