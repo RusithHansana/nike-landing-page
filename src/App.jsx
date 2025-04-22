@@ -1,3 +1,4 @@
+import PopularProducts from "./sections/PopularProducts"
 import { Nav } from "./components";
 import { Hero } from "./sections";
 
@@ -9,6 +10,9 @@ function App() {
         <Hero />
       </div>
       {/* Popular Products */}
+      <section className="padding">
+        <PopularProducts />
+      </section>
       {/* SuperQuality */}
       {/* Services */}
       {/* SpecialOffer */}
