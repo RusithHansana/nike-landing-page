@@ -1,11 +1,13 @@
-import { Nav } from "./components"
+import { Nav } from "./components";
+import { Hero } from "./sections";
 
 function App() {
   return (
     <main className="relative">
-      {/* Nav */}
       <Nav />
-      {/* Hero */}
+      <div className="xl:padding-l wide:padding-r padding-b">
+        <Hero />
+      </div>
       {/* Popular Products */}
       {/* SuperQuality */}
       {/* Services */}
