@@ -16,7 +16,6 @@ export const navLinks = [
   { href: "#contact-us", label: "Contact Us" },
 ];
 
-
 export const products = [
   {
     shoeImg: shoe4,
@@ -39,7 +38,7 @@ export const products = [
     price: "$230.20",
   },
 ];
-=======
+
 export const shoes = [
   {
     thumbnail: thumbnailShoe1,
