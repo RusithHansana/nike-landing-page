@@ -1,5 +1,12 @@
 import { shieldTick, support, truckFast } from "../assets/icons";
-import { shoe4, shoe5, shoe6, shoe7 } from "../assets/images";
+import {
+  customer1,
+  customer2,
+  shoe4,
+  shoe5,
+  shoe6,
+  shoe7,
+} from "../assets/images";
 
 import {
   bigShoe1,
@@ -77,5 +84,22 @@ export const services = [
     icon: support,
     label: "Love to help you",
     subtext: "Our dedicated team is here to assist you every step of the way.",
+  },
+];
+
+export const reviews = [
+  {
+    customerImage: customer1,
+    customerName: "Morich Brown",
+    rating: 4.5,
+    feedback:
+      "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
+  },
+  {
+    customerImage: customer2,
+    customerName: "Lota Mongeskar",
+    rating: 4.5,
+    feedback:
+      "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
   },
 ];
