@@ -15,7 +15,7 @@ const Subscribe = () => {
                 <input
                     type="email"
                     placeholder="john@mail.com"
-                    className="input"
+                    className="max-sm:w-full sm:flex-1 leading-2 placeholder:text-gray-500 outline-red-500 border border-gray-500 rounded-full p-3.5 "
                 />
                 <div className="flex max-sm:justify-end items-center max-sm:w-full">
                     <Button label="Sign Up" fullWidth={true} />
