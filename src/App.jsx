@@ -5,6 +5,7 @@ import {
   PopularProducts,
   Services,
   SpecialOffer,
+  Subscribe,
   SuperQuality
 } from "./sections";
 
@@ -30,7 +31,9 @@ function App() {
       <section className="bg-blue-50 padding">
         <CustomerReviews />
       </section>
-      {/* Subscribe */}
+      <section className="padding-x sm:py-32 py-16 w-full">
+        <Subscribe />
+      </section>
       {/* Footer */}
     </main>
   )
