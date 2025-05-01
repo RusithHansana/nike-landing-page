@@ -1,4 +1,11 @@
-import { shieldTick, support, truckFast } from "../assets/icons";
+import {
+  facebook,
+  instagram,
+  shieldTick,
+  support,
+  truckFast,
+  twitter,
+} from "../assets/icons";
 import {
   customer1,
   customer2,
@@ -102,4 +109,41 @@ export const reviews = [
     feedback:
       "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
   },
+];
+
+export const footerLinks = [
+  {
+    title: "Products",
+    links: [
+      { name: "Air Force 1", link: "/" },
+      { name: "Air Max 1", link: "/" },
+      { name: "Air Jordan 1", link: "/" },
+      { name: "Air Force 2", link: "/" },
+      { name: "Nike Waffle Racer", link: "/" },
+      { name: "Nike Cortez", link: "/" },
+    ],
+  },
+  {
+    title: "Help",
+    links: [
+      { name: "About us", link: "/" },
+      { name: "FAQs", link: "/" },
+      { name: "How it works", link: "/" },
+      { name: "Privacy policy", link: "/" },
+      { name: "Payment policy", link: "/" },
+    ],
+  },
+  {
+    title: "Get in touch",
+    links: [
+      { name: "customer@nike.com", link: "mailto:customer@nike.com" },
+      { name: "+92554862354", link: "tel:+92554862354" },
+    ],
+  },
+];
+
+export const socialMedia = [
+  { icon: facebook, alt: "facebook logo" },
+  { icon: twitter, alt: "twitter logo" },
+  { icon: instagram, alt: "instagram logo" },
 ];

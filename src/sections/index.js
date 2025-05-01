@@ -5,3 +5,4 @@ export { default as Services } from "./Services.jsx";
 export { default as SpecialOffer } from "./SpecialOffer.jsx";
 export { default as CustomerReviews } from "./CustomerReviews.jsx";
 export { default as Subscribe } from "./Subscribe.jsx";
+export { default as Footer } from "./Footer.jsx";
