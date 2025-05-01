@@ -1,12 +1,101 @@
-# React + Vite
+# Nike Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Nike Landing Page](https://raw.githubusercontent.com/user/nike-landing-page/main/screenshot.png)
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a modern, responsive Nike landing page built with React and Tailwind CSS. It's an excellent project for mastering Tailwind CSS fundamentals and responsive design techniques.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Fully responsive design that works on all devices
+- Modern UI with smooth transitions and animations
+- Component-based architecture
+- Optimized for performance
+
+## Technologies Used
+
+- **React 19** - Front-end library
+- **Tailwind CSS 4** - Utility-first CSS framework
+- **Vite** - Build tool
+- **SWC** - Fast JavaScript/TypeScript compiler
+
+## Why This Project?
+
+This project is ideal for:
+
+- Understanding how to structure a React application
+- Learning to implement responsive designs
+- Mastering Tailwind CSS utility classes
+- Practicing component composition
+
+The project includes sections like:
+- Hero section with statistics
+- Product showcase
+- Quality information section
+- Services section
+- Special offers
+- Customer reviews
+- Newsletter subscription
+- Comprehensive footer
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/nike-landing-page.git
+```
+
+2. Navigate to the project directory
+
+```bash
+cd nike-landing-page
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+### Project Structure
+
+```bash
+nike-landing-page/
+├── public/
+├── src/
+│   ├── assets/
+│   │   ├── icons/
+│   │   └── images/
+│   ├── components/
+│   ├── constants/
+│   ├── sections/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+### Credits
+
+This project was inspired by [Adrian Hajdin's Nike Landing Page](https://github.com/adrianhajdin/nike_landing_page), but has been rebuilt with React 19, Tailwind CSS 4, and Vite 6 for a modern development experience.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
