@@ -1,6 +1,6 @@
 # Nike Landing Page
 
-![Nike Landing Page](https://raw.githubusercontent.com/user/nike-landing-page/main/screenshot.png)
+![Nike Landing Page](image.png)
 
 ## About
 
