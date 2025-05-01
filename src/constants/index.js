@@ -1,3 +1,4 @@
+import { shieldTick, support, truckFast } from "../assets/icons";
 import { shoe4, shoe5, shoe6, shoe7 } from "../assets/images";
 
 import {
@@ -58,4 +59,23 @@ export const statistics = [
   { value: "1K+", label: "Brands" },
   { value: "500+", label: "Shops" },
   { value: "250K+", label: "Customers" },
+];
+
+export const services = [
+  {
+    icon: truckFast,
+    label: "Free shipping",
+    subtext: "Enjoy seamless shopping with our complimentary shipping service.",
+  },
+  {
+    icon: shieldTick,
+    label: "Secure Payment",
+    subtext:
+      "Experience worry-free transactions with our secure payment options.",
+  },
+  {
+    icon: support,
+    label: "Love to help you",
+    subtext: "Our dedicated team is here to assist you every step of the way.",
+  },
 ];
