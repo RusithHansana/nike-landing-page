@@ -1,5 +1,5 @@
 import { Nav } from "./components";
-import { Hero, PopularProducts } from "./sections";
+import { Hero, PopularProducts, SuperQuality } from "./sections";
 
 function App() {
   return (
@@ -11,7 +11,9 @@ function App() {
       <section className="padding">
         <PopularProducts />
       </section>
-      {/* SuperQuality */}
+      <section className="padding">
+        <SuperQuality />
+      </section>
       {/* Services */}
       {/* SpecialOffer */}
       {/* CustomerReviews */}
