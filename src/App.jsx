@@ -3,6 +3,7 @@ import {
   Hero,
   PopularProducts,
   Services,
+  SpecialOffer,
   SuperQuality
 } from "./sections";
 
@@ -22,7 +23,9 @@ function App() {
       <section className="padding-x py-10">
         <Services />
       </section>
-      {/* SpecialOffer */}
+      <section className="padding">
+        <SpecialOffer />
+      </section>
       {/* CustomerReviews */}
       {/* Subscribe */}
       {/* Footer */}
