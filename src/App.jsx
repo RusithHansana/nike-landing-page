@@ -1,5 +1,6 @@
 import { Nav } from "./components";
 import {
+  CustomerReviews,
   Hero,
   PopularProducts,
   Services,
@@ -26,7 +27,9 @@ function App() {
       <section className="padding">
         <SpecialOffer />
       </section>
-      {/* CustomerReviews */}
+      <section className="bg-blue-50 padding">
+        <CustomerReviews />
+      </section>
       {/* Subscribe */}
       {/* Footer */}
     </main>
