@@ -19,7 +19,6 @@ function App() {
       <section className="padding">
         <SuperQuality />
       </section>
-      {/* Services */}
       <section className="padding-x py-10">
         <Services />
       </section>
